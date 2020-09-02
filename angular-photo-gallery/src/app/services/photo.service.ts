@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http'
 })
 export class PhotoService {
 
-  URI = "http://localhost:3200/api/photos"
+  URI = "https://unshesho.github.io/api-photo/api/photos"
 
   constructor(private http: HttpClient) { }
 
